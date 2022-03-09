@@ -57,7 +57,6 @@ public class RegisterActivity extends AppCompatActivity {
                     toast.show();
                 }
 
-
                 else if(!(Pass.getText().toString().equals(ConPass.getText().toString()))){
 
                     Toast toast = Toast.makeText(getApplicationContext(),
@@ -73,8 +72,6 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
-
-
 
     class SecondTask extends AsyncTask<String,Void,String> {
 
@@ -168,9 +165,7 @@ public class RegisterActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-
         }
-
 
     }
 }
