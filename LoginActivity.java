@@ -112,7 +112,6 @@ public class LoginActivity extends ComponentActivity {
             activity = (Activity) ctx;
         }
 
-
         @Override
         protected void onPreExecute() {
 
